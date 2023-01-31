@@ -11,3 +11,7 @@ i BGP ----------- 200</br>
 </br>
 In Palo Alto CLI, you can find this by the command `show routing summary`</br>
 ![image](https://user-images.githubusercontent.com/52063741/215765472-c81e058b-4877-4e4f-8075-a01a112d25d6.png) </br>
+**Routing Preference**
+When two routing subnets / CIDRs coinicide, the longest match is preferred. For instance:
+10.1.1.0/24 </br>
+10.1.1.16/25 [preferred] </br>
